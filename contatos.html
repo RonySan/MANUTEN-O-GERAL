@@ -1,0 +1,184 @@
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,user-scalable=0"/>
+
+<link rel="stylesheet" type="text/css" href="asset/css/style.css">
+<script type="text/javascript">
+window.onload = function(){
+      document.querySelector(".menumobile").addEventListener("click", function(){
+            if(document.querySelector(".menu nav ul").style.display == 'none') {
+                  document.querySelector(".menu nav ul").style.display = 'flex';
+            } else { 
+                 document.querySelector(".menu nav ul").style.display = 'none';
+            }
+      });
+};
+</script>
+
+<title>ManutençãoGeral</title>
+
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="logo">
+			<a href="index."><img src="asset/img/logo11.png"></a>
+		</div>
+		<div class="menu">
+			<nav>
+                        <div class="menumobile">
+                              <div class="mm_line"></div>
+                              <div class="mm_line"></div>
+                              <div class="mm_line"></div>
+                        </div>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li class="active"><a href="">CONTATOS</a></li>
+					<li><a href="serviços.html">SERVIÇOS</a></li>
+					<li><a href="sobre.html">SOBRE</a></li>
+                              <li><a href="missao.html">Missão</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+<section id="banner">
+	<div class="top">
+		<div class="topint">
+			<h1>Se caso queira saber mais sobre nossos servisos e valores preencha os campos baixo, ou 
+				entre em contato atravez do whatsap, facebook ou instraga
+			</h1>
+		</div>	
+	</div>
+</section>
+<section id="geral">
+	<div class="content">
+		<section>		
+	   		<div class="formulario">
+                       
+		   	<form method="POST" action="recebedor.php">
+					Nome*<br>
+				<input class="in1" type="name" name="name"required placeholder="Ex:Maria"><br><br>
+					Sobrenome*<br>
+				<input class="in7" type="name" name="sobrenome"required placeholder="ex:da silva"><br><br>
+					Email*<br>				
+				<input class="in2" type="email" name="email" required placeholder="ex:maria@gmail.com"><br><br>
+					Telefone*<br>
+				<input class="in3" type="tel" name=-"tel" required placeholder="ex:11 9922-2222"><br><br>
+					Mensagem*<br>
+				<textarea class="in5" type="text" neme="text"required placeholder="ex:preciso estalar uma pia e cinco tomadas"></textarea><br><br>
+				<input class="in6" type="submit" value="Enviar"/>
+			 </form>
+			</div>
+		</section>
+			<div class="cont_heigth">
+				<div class="widget">
+					<div class="widget_body">
+						<strong><h7>Email<br>jiliar.comercial@gmail.com<br><br>ronysan940@gmail.com</h7><br><br>
+
+						<h8>Tel<br>(11)98323-8831<br><br>(11)95469-3939</h8><br><br>
+
+						<h9>Cidade-Estado<br>São Paulo-SP
+						</h9>
+
+						<h10></h10></strong>
+					</div>
+				</div>
+			</div>
+	</div>
+</section>
+<footer>
+	<div class="container">
+		<div class="footer_area">
+			<div class="footer_areaitem">
+                        <div class"widget">
+                              <div class="widget_title">
+                                    <div class="widget_title_text">J.J|R.S</div>
+                                    <div class="widget_title_bar"></div>
+                              </div>
+                              <div class="widget_body">
+                                    <a href="https://www.instagram.com/jiliar_servico/" target="_blank">
+                                    <div>instagram.     jiliar_servico</div>
+                              </a>
+
+                               <a href="https://www.facebook.com/jiliar.yossef.31/" target="_blank">
+                                    <div>facebook.      Jiliar Yossef</div>
+                              </a>
+                              
+
+                              <a href="" target="_blank">
+                                    <div>tel. (11) 98323-8831</div>
+                              </a>
+
+                              </div>
+
+                        </div>
+                  </div>
+                   <div class="footer_areaitem">
+                        <div class="widget">
+                              <div class="widget_title">
+                                    <div class="widget_title_text">Nossos Parceiros</div>
+                                    <div class="widget_title_bar"></div>
+                              </div>
+                              <div class="widget_body">
+
+                              <a href="https://www.facebook.com/ricardo.primesense" target="_blank">
+                                    <div>Prime Sense cosmeticos</div>
+                              </a>
+                              <a href="https://www.facebook.com/estefani.gunji" target="_blank">
+                                    <div>Gunji M. Estéfani manicure e pedicure</div>
+                              </a>
+                              <a href="https://www.facebook.com/rony.san.52/" target="_blank">
+                                    <div>RonySan programador </div>
+                              </a>
+                               <a href="https://instagram.com/misterbigode_of?igshid=1nf4zjkteenra" target="_blank">
+                                    <div>Barbearia Mr.bigode </div>
+                              </a>
+
+                              </div>
+
+                        </div>
+                  </div>
+                  <div class="footer_ariaintem">
+                  	<div class="widget">
+                  		<div class="widget_title">
+                  			<div class="widget_title_text">
+                                    <a href="https://wa.me/qr/YOGVIXGJ6OTKK1" target="_blank"><img class="footer_img"src="asset/img/whatsappqr1.png"></a>
+
+                                    <a href="https://wa.me/message/2EXBVEPY6R2IG1" target="_blank"><img class="footer_img"src="asset/img/whatsappQR.png"></a> 
+                                    </div>
+                  			
+                  		</div>
+                  		<div class="widget_body">
+
+                  		</div>
+                  	</div>
+                  </div>
+            </div>
+
+            </div>
+		</div>
+	</div>
+</footer>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
